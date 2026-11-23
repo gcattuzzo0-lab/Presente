@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="referrer" content="strict-origin-when-cross-origin"><!-- o OpenStreetMap exige Referer nos mapas -->
+<meta name="theme-color" content="#f5ecdd">
+<title>Nossa história</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Cormorant+Garamond:ital,wght@1,600&family=Lora&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- 1. ABERTURA -->
+<header class="hero" id="abertura">
+  <p class="eyebrow rv">Natal de 2025</p>
+  <figure class="polaroid rv">
+    <img src="assets/photos/capa.jpg" alt="Nós dois" decoding="async">
+    <figcaption>2025</figcaption>
+  </figure>
+  <h1 class="rv">Nossa história</h1>
+  <p class="sub rv">Uma coleção de lugares, momentos e histórias que construímos juntos.</p>
+  <a class="btn rv" href="#linha-do-tempo">Reviver nossa história</a>
+</header>
+
+<main>
+  <!-- 2. LINHA DO TEMPO (preenchida por js/app.js) -->
+  <section class="sec" id="linha-do-tempo">
+    <h2 class="rv">Nossa linha do tempo</h2>
+    <ol class="timeline" id="timeline"></ol>
+  </section>
+
+  <!-- 3 e 4. MAPA integrado à linha do tempo -->
+  <section class="sec" id="mapa">
+    <h2 class="rv">Nosso mapa</h2>
+    <p class="hint">Toque nos marcadores ou use os botões para passear pelas lembranças.</p>
+    <div class="mapwrap"><div id="map"></div></div>
+    <nav class="mapnav" aria-label="Navegar entre lugares">
+      <button class="btn sm" id="prev" type="button">Anterior</button>
+      <span id="count" aria-live="polite"></span>
+      <button class="btn sm" id="next" type="button">Próxima</button>
+    </nav>
+  </section>
+
+  <!-- 5. CARTA FINAL (texto vem de js/memories.js) -->
+  <section class="sec final" id="carta">
+    <article class="letter rv" id="letter"></article>
+  </section>
+</main>
+
+<script src="vendor/leaflet/leaflet.js"></script>
+<script src="js/memories.js"></script>
+<script src="js/map.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
