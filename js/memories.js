@@ -12,11 +12,11 @@
 
 window.SITE = {
   letter: {
-    title: "FELIZ NATAL MEU AMOR, ESPERO CRIAR MUITAS OUTRAS MEMORIAS COM VOCÊ.",
+    title: "FELIZ NATAL MEU AMOR.",
     photo: "assets/photos/carta.jpg",
     paragraphs: [
       "Não sou muito bom em escrever, mas quero que você saiba que sou muito feliz e grato por ter te conhecido.",
-      "Eu amo cada momento que passamos juntos e quero passar muito tempo ao seu lado, te fazendo feliz e construindo nossa vida juntos."
+      "Eu amo cada momento que passamos juntos e quero passar muito tempo ao seu lado, te fazendo feliz e construindo nossa vida juntos e quero criar muitas memorias com você."
     ],
     signature: "Com muito amor, seu namorado"
   }
