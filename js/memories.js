@@ -12,7 +12,7 @@
 
 window.SITE = {
   letter: {
-    title: "FELIZ NATAL MEU AMOR.",
+    title: "FELIZ NATAL MEU AMOR",
     photo: "assets/photos/carta.jpg",
     paragraphs: [
       "Não sou muito bom em escrever, mas quero que você saiba que sou muito feliz e grato por ter te conhecido.",
