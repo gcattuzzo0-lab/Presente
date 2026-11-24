@@ -12,14 +12,13 @@
 
 window.SITE = {
   letter: {
-    title: "Essa história ainda está sendo escrita.",
+    title: "FELIZ NATAL MEU AMOR, ESPERO CRIAR MUITAS OUTRAS MEMORIAS COM VOCÊ.",
     photo: "assets/photos/carta.jpg",
     paragraphs: [
-      "[TEXTO DEMONSTRATIVO] Aqui vai a sua carta de Natal. Substitua este texto por algo escrito do seu jeito.",
-      "Cada parágrafo desta lista aparece em sequência, com uma animação suave.",
-      "Quantos parágrafos você quiser."
+      "Não sou muito bom em escrever, mas quero que você saiba que sou muito feliz e grato por ter te conhecido.",
+      "Eu amo cada momento que passamos juntos e quero passar muito tempo ao seu lado, te fazendo feliz e construindo nossa vida juntos."
     ],
-    signature: "Com amor, [seu nome]"
+    signature: "Com muito amor, seu namorado"
   }
 };
 
